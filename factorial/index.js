@@ -8,7 +8,7 @@ function factorial(n) {
   return n * factorial(n - 1)
 }
 
-let number = window.prompt('Enter a number to calculate its factorial: ', '0')
+const number = window.prompt('Enter a number to calculate its factorial: ', '0')
 
 if (isNaN(number)) {
   window.alert('Invalid number')
