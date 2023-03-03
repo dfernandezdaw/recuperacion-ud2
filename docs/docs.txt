@@ -1,0 +1,5 @@
+Ejercicio 1 y 2
+
+Escribir el código: Visual Studio Code
+Probar el código: Brave y Mozilla Firefox
+Depurar el código: Depurador integrado de Brave
