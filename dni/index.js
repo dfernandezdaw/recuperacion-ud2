@@ -32,7 +32,7 @@ const dniNumber = window.prompt('Enter your DNI number: ', '0')
 // Call the function that validates the DNI number and returns the letter
 const letter = dni(dniNumber)
 // Show the result
-if (letter === 'Invalid parameter') {
+if (isNaN(dniNumber) || letter === 'Invalid parameter') {
   window.alert('Invalid DNI number')
 } else {
   window.alert('Your complete DNI is ' + dniNumber + letter)
